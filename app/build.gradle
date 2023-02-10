@@ -33,4 +33,6 @@ dependencies {
     implementation  'com.scwang.smart:refresh-footer-classics:2.0.3'    //经典加载
 
     implementation 'androidx.viewpager2:viewpager2:1.1.0-beta01'
+
+    implementation "com.bytedance.tools.wrangler:wrangler-core:2.1.1"
 }
