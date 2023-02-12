@@ -2786,6 +2786,7 @@ public class ConsecutiveScrollerLayout extends ViewGroup implements ScrollingVie
 
     }
 
+    // <editor-fold desc="NestedScroll">
     @Override
     public void setNestedScrollingEnabled(boolean enabled) {
         mChildHelper.setNestedScrollingEnabled(enabled);
@@ -2940,6 +2941,7 @@ public class ConsecutiveScrollerLayout extends ViewGroup implements ScrollingVie
     public boolean onNestedPreFling(@NonNull View target, float velocityX, float velocityY) {
         return dispatchNestedPreFling(velocityX, velocityY);
     }
+    // </editor-fold>
 
     /**
      * @return 是否开启了越界滑动
